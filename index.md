@@ -3,6 +3,10 @@ layout: default
 title: Weekly Reports
 ---
 
+# Files
+
+[Requirements + Testing Plan](files/requirements-and-testing.xlsx)
+
 # Weekly Reports
 <ul>
   {% for post in site.posts %}
