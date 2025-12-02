@@ -5,11 +5,8 @@ description: >
   Project Overview: Our project is a course scheduler that uses the Wright State course catalog
   to generate potential schedules for students dependent on their majors/minors.
   There are three main account types for users: student, faculty, and admin.
-  After logging in with their given username and password, the user will be redirected to their respective account dashboard.
   Below are the possible actions for each account type:
   STUDENT -- Can generate a schedule by selecting 1-2 majors and a maximum of 2 minors.
-  The majors that are given as options are Computer Engineering (CEG) and Computer Science (CS).
-  The minors are Mathematics (MTH) and Phyics (PHY).
   The student must also input the number of semesters that he would like to graduate in.
   The scheduler will then attempt to display a schedule that has as many semesters as the student requested,
   manually increasing the number of semesters if necessary.
