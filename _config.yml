@@ -1,5 +1,19 @@
 theme: jekyll-theme-minimal
 title: Magic School Kids
 description: >
-  Team Members: Josiah Schmitz, Shane Martin, Luke Kaufman <br>
-  Project Overview: Course Scheduler
+  Team Members: Josiah Schmitz, Shane Martin, Luke Kaufman <br><br>
+  Project Overview: Our project is a course scheduler that uses the Wright State course catalog
+  to generate potential schedules for students dependent on their majors/minors.
+  There are three main account types for users: student, faculty, and admin.
+  After logging in with their given username and password, the user will be redirected to their respective account dashboard.
+  Below are the possible actions for each account type:
+  STUDENT -- Can generate a schedule by selecting 1-2 majors and a maximum of 2 minors.
+  The majors that are given as options are Computer Engineering (CEG) and Computer Science (CS).
+  The minors are Mathematics (MTH) and Phyics (PHY).
+  The student must also input the number of semesters that he would like to graduate in.
+  The scheduler will then attempt to display a schedule that has as many semesters as the student requested,
+  manually increasing the number of semesters if necessary.
+  The student can then approve the schedule or reject it to generate a new one.
+  FACULTY -- No major functionality implemented for this account type.
+  ADMIN -- Can create accounts of any of the three account types, assigning a name, username, and password to the account.
+  This account will then have the full functionality of any pre-created account.
