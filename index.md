@@ -3,13 +3,6 @@ layout: default
 title: Weekly Reports
 ---
 
-<style>
-.wrapper {
-    max-width: 1000px;
-    width: 90%;
-}
-</style>
-
 # Weekly Reports
 <ul>
   {% for post in site.posts %}
